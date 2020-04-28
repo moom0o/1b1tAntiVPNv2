@@ -89,27 +89,3 @@ public class Main extends JavaPlugin implements Listener {
 }
 //- Trying to make the repo considered java and not javascript. -
                                                                    
-//             bbbbbbbb                                               
-//   1111111   b::::::b              1111111            tttt          
-//  1::::::1   b::::::b             1::::::1         ttt:::t          
-// 1:::::::1   b::::::b            1:::::::1         t:::::t          
-// 111:::::1    b:::::b            111:::::1         t:::::t          
-//    1::::1    b:::::bbbbbbbbb       1::::1   ttttttt:::::ttttttt    
-//    1::::1    b::::::::::::::bb     1::::1   t:::::::::::::::::t    
-//    1::::1    b::::::::::::::::b    1::::1   t:::::::::::::::::t    
-//    1::::l    b:::::bbbbb:::::::b   1::::l   tttttt:::::::tttttt    
-//    1::::l    b:::::b    b::::::b   1::::l         t:::::t          
-//    1::::l    b:::::b     b:::::b   1::::l         t:::::t          
-//    1::::l    b:::::b     b:::::b   1::::l         t:::::t          
-//    1::::l    b:::::b     b:::::b   1::::l         t:::::t    tttttt
-// 111::::::111 b:::::bbbbbb::::::b111::::::111      t::::::tttt:::::t
-// 1::::::::::1 b::::::::::::::::b 1::::::::::1      tt::::::::::::::t
-// 1::::::::::1 b:::::::::::::::b  1::::::::::1        tt:::::::::::tt
-// 111111111111 bbbbbbbbbbbbbbbb   111111111111          ttttttttttt  
-                                                                   
-                                                                   
-                                                                   
-                                                                   
-                                                                   
-                                                                   
-                                                                   
