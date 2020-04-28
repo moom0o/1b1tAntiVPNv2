@@ -9,8 +9,6 @@ app.get("/", (request, response) => {
   response.sendFile(__dirname + "/views/index.html");
 });
 app.get("/proxycheck", (request, response) => {
-  console.log(request.headers)
-  console.log(request.url)
   if(request.query.key != "yyyyyyyyyyy"){
     return response.status(401).send("Wrong token")
   }
@@ -43,7 +41,6 @@ app.get("/proxycheck", (request, response) => {
     })
     .end(function (res) { 
       if (res.error)
-      console.log(res.raw_body);
       response.send({
         proxy: `${JSON.parse(res.raw_body)[request.query.ip].proxy}`,
         cached: "no",
@@ -55,7 +52,6 @@ app.get("/proxycheck", (request, response) => {
 var multer = require("multer");
 var upload = multer();
 app.post("/addname", upload.none(), (request, response) => {
-  console.log(request.body);
   var unirest = require("unirest");
   var req = unirest(
     "POST",
@@ -70,11 +66,9 @@ app.post("/addname", upload.none(), (request, response) => {
       var req = unirest('GET', `https://api.mojang.com/users/profiles/minecraft/${request.body["username"].replace("(", "").replace(")", "")}`)
         .end(function (res) { 
           if (res.error){
-            console.log(res.error)
             response.status(400).send("Invalid username")
             return
           } else{
-            console.log("no error")
             if(!res.raw_body.includes("id")){
               response.status(400).send("Invalid username")
               return
