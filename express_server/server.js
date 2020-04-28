@@ -95,11 +95,6 @@ app.post("/addname", upload.none(), (request, response) => {
       response.status(403).send("Google Recaptcha failed!");
     }
   });
-});
-app.get("/names", (request, response) => {
-  let names = JSON.parse(fs.readFileSync(`/home/1b1t/1b1twhitelist/names.json`, "utf-8"));
-  response.send(names); // don't think about going to /names the names are public in discord anyway so doesn't matter
-});
 const listener = app.listen(3002, () => {
   console.log("Your app is listening on port " + 3002);
 });
