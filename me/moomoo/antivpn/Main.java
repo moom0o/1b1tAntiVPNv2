@@ -20,6 +20,25 @@ public class Main extends JavaPlugin implements Listener {
     private HashSet<Player> allowed = new HashSet<Player>();
     public void onEnable() {
         System.out.println("[ENABLED] moomoo's antivpn plugin, originally made for 1b1t");
+        System.out.println("                                                                   ");
+        System.out.println("            bbbbbbbb                                               ");
+        System.out.println("  1111111   b::::::b              1111111            tttt          ");
+        System.out.println(" 1::::::1   b::::::b             1::::::1         ttt:::t          ");
+        System.out.println("1:::::::1   b::::::b            1:::::::1         t:::::t          ");
+        System.out.println("111:::::1    b:::::b            111:::::1         t:::::t          ");
+        System.out.println("   1::::1    b:::::bbbbbbbbb       1::::1   ttttttt:::::ttttttt    ");
+        System.out.println("   1::::1    b::::::::::::::bb     1::::1   t:::::::::::::::::t    ");
+        System.out.println("   1::::1    b::::::::::::::::b    1::::1   t:::::::::::::::::t    ");
+        System.out.println("   1::::l    b:::::bbbbb:::::::b   1::::l   tttttt:::::::tttttt    ");
+        System.out.println("   1::::l    b:::::b    b::::::b   1::::l         t:::::t          ");
+        System.out.println("   1::::l    b:::::b     b:::::b   1::::l         t:::::t          ");
+        System.out.println("   1::::l    b:::::b     b:::::b   1::::l         t:::::t          ");
+        System.out.println("   1::::l    b:::::b     b:::::b   1::::l         t:::::t    tttttt");
+        System.out.println("111::::::111 b:::::bbbbbb::::::b111::::::111      t::::::tttt:::::t");
+        System.out.println("1::::::::::1 b::::::::::::::::b 1::::::::::1      tt::::::::::::::t");
+        System.out.println("1::::::::::1 b:::::::::::::::b  1::::::::::1        tt:::::::::::tt");
+        System.out.println("111111111111 bbbbbbbbbbbbbbbb   111111111111          ttttttttttt  ");
+        System.out.println("                                                                   ");
         Bukkit.getServer().getPluginManager().registerEvents(this, this);
     }
     public void onDisable() {
